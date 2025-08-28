@@ -1,23 +1,33 @@
 # API-REST-PATIENT
-#1. Resumen del Proyecto
+***1. Resumen del Proyecto***
 
 "Esta es una API RESTful para la gestión de información de pacientes, como su nombre, edad y síntomas. Fue desarrollada como un proyecto de demostración utilizando C# y ASP.NET Core, siguiendo una arquitectura limpia que separa las responsabilidades de cada componente. La API almacena los datos de forma temporal en memoria, por lo que se perderán al reiniciar la aplicación."
   
-#2. Requisitos Previos
+***2. Requisitos Previos***
 
- ### Para poder ejecutar esta API en tu máquina local, debes tener instalado el SDK de .NET.
-    1)SDK de .NET 8.0: Puedes descargarlo e instalarlo desde el sitio oficial de Microsoft( https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.413-windows-x64-installer ).
-    2)Después de la instalación, reinicia tu terminal o línea de comandos. Puedes verificar que el SDK se instaló correctamente ejecutando el siguiente comando:
-      Bash: dotnet --version 
+  Para poder ejecutar esta API en tu máquina local, debes tener instalado el SDK de .NET.
 
-#3. Configuración y Ejecución
-  ###Sigue estos pasos para clonar el repositorio y poner la API en funcionamiento:
-        1)Clona el repositorio desde la terminal:
-          -Bash:  git clone https://github.com/tu-usuario/API-REST-PATIENT.git
-        2)Navega al directorio del proyecto:
-          -Bash: cd API-REST-PATIENT
-        3)Ejecuta la API en el entorno de desarrollo para poder acceder a la interfaz de Swagger:
-          -Bash: dotnet run --environment Development
+  1)SDK de .NET 8.0: Puedes descargarlo e instalarlo desde el sitio oficial de Microsoft.  [Descarga aquí]( https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.413-windows-x64-installer ).
+          
+  2)Después de la instalación, reinicia tu terminal o línea de comandos.Puedes verificar que el SDK se instaló correctamente ejecutando el siguiente comando:
+  
+            Bash: dotnet --version 
+
+***3. Configuración y Ejecución***
+  Sigue estos pasos para clonar el repositorio y poner la API en funcionamiento:
+  
+  1)Clona el repositorio desde la terminal:
+        
+            Bash:  git clone https://github.com/tu-usuario/API-REST-PATIENT.git
+            
+  2)Navega al directorio del proyecto:
+        
+            Bash: cd API-REST-PATIENT
+            
+  3)Ejecuta la API en el entorno de desarrollo para poder acceder a la interfaz de Swagger:
+        
+            Bash: dotnet run --environment Development
+            
 ***Nota: Si la ejecución es exitosa, la terminal te mostrará las URLs donde la API está escuchando.***
 
 4. Arquitectura del Proyecto
