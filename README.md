@@ -19,7 +19,7 @@
   
   1) Clona el repositorio desde la terminal:
         
-            Bash:  [git clone https://github.com/tu-usuario/API-REST-PATIENT.git](https://github.com/LopezGuevara/API-REST-PATIENT.git)
+            Bash:  [git clone https://github.com/LopezGuevara/API-REST-PATIENT.git](https://github.com/LopezGuevara/API-REST-PATIENT.git)
             
   2) Navega al directorio del proyecto:
         
